@@ -76,17 +76,26 @@ The next GR8Conf EU will be moved and take place June 1st to 3rd, as it would ha
 *   [Flirting with disaster: A dangerous use of Groovy’s dynamic method invocation](https://objectpartners.com/2016/01/05/flirting-with-disaster-a-dangerous-use-of-groovys-dynamic-method-invocation/) (Shawn Flahave)
 *   [玩火自封：危险的Groovy动态方法调用](https://objectpartners.com/2016/01/05/flirting-with-disaster-a-dangerous-use-of-groovys-dynamic-method-invocation/) (Shawn Flahave)
 *   [Groovy default params to avoid one-argument methods being called without params](http://glaforge.appspot.com/article/groovy-default-params-to-avoid-one-argument-methods-being-called-without-params) (Guillaume Laforge)
+*   [Groovy默认参数可以避免单参数方法没有带参数就调用](http://glaforge.appspot.com/article/groovy-default-params-to-avoid-one-argument-methods-being-called-without-params) (Guillaume Laforge)
+*   [Ratpacked: Getting Multiple Objects With Same Type From Registry](http://mrhaki.blogspot.dk/2016/01/ratpacked-getting-multiple-objects-with.html) (Hubert Klein Ikkink aka MrHaki)
 *   [Ratpacked: Getting Multiple Objects With Same Type From Registry](http://mrhaki.blogspot.dk/2016/01/ratpacked-getting-multiple-objects-with.html) (Hubert Klein Ikkink aka MrHaki)
 *   [Ratpacked: Tapping In On A Promise](http://mrhaki.blogspot.dk/2016/01/ratpacked-tapping-in-on-promise.html) (Hubert Klein Ikkink aka MrHaki)
 *   [Ratpacked: Add Common Handlers Via The Registry](http://mrhaki.blogspot.dk/2016/01/ratpacked-add-common-handlers-via.html) (Hubert Klein Ikkink aka MrHaki)
 *   [Ratpacked: Add Chains Via Registry](http://mrhaki.blogspot.dk/2016/01/ratpacked-add-chains-via-registry.html) (Hubert Klein Ikkink aka MrHaki)
 *   [Grails 3 Example (in German)](http://blog.k-oo.de/2016/01/09/grails-3-example/) (Gero Klinkmann)
+*   [Grails 3 例子 (在德国)](http://blog.k-oo.de/2016/01/09/grails-3-example/) (Gero Klinkmann)
 *   [Layering Ratpack Configuration](http://kyleboon.org/blog/2016/01/10/layering-ratpack-configuration) (Kyle Boon)
+*   [分层Ratpack配置](http://kyleboon.org/blog/2016/01/10/layering-ratpack-configuration) (Kyle Boon)
 *   [Linux and open source have won, get over it](http://www.zdnet.com/article/linux-and-open-source-have-won-get-over-it) (Steven J. Vaughan-Nichols)
+*   [Linux和开源软件赢了，征服微软吧!](http://www.zdnet.com/article/linux-and-open-source-have-won-get-over-it) (Steven J. Vaughan-Nichols)
+
 
 Ok, the last article is not Groovy related directly, but just a great read ;)
+好的，最新的文章没有直接跟Groovy相关，但是也可以好好阅读一下。  
 
 #### New Grails 3 Plugins
+
+#### Grails 3新的插件   
 
 *   [spring-security-rest-testapp-profile](https://bintray.com/grails/plugins/spring-security-rest-testapp-profile/view) (null) Spring Security REST plugin for Grails - Profile for test apps
 *   [swagger4jaxrs](https://bintray.com/donald-jackson/plugins/swagger4jaxrs/view) (0.4) Grails swagger4jaxrs plugin
@@ -102,6 +111,8 @@ Ok, the last article is not Groovy related directly, but just a great read ;)
 
 #### Updated Grails 3 Plugins
 
+#### Grails 3插件的更新
+
 *   [rendering](https://bintray.com/grails/plugins/rendering/view) (2.0.1) Grails rendering plugin
 *   [p6spy-ui](https://bintray.com/grails/plugins/p6spy-ui/view) (3.0.0) Grails p6spy-ui plugin
 *   [ajax-tags](https://bintray.com/grails/plugins/ajax-tags/view) (1.0.0) Grails ajax-tags plugin
@@ -110,6 +121,8 @@ Ok, the last article is not Groovy related directly, but just a great read ;)
 *   [spring-security-core](https://bintray.com/grails/plugins/spring-security-core/view) (3.0.3) Grails spring-security-core plugin
 
 #### New Grails 2 Plugins
+
+#### 新的Grails 2插件
 
 *   [Exa Security Plugin](https://grails.org/plugin/exa-security) Enhance your application security with some tools - script, scaffolding, filters and more. This plugin is only compatible with Grails 2
 *   [spring-security-rest-testapp-profile](https://grails.org/plugin/spring-security-rest-testapp-profile)
@@ -122,6 +135,9 @@ Ok, the last article is not Groovy related directly, but just a great read ;)
 *   [Bitbucket for Spring Security Oauth Plugin](https://grails.org/plugin/spring-security-oauth-bitbucket) Integrate Bitbucket to Spring Security OAuth plugin.
 
 #### Updated Grails 2 Plugins
+
+
+#### Grails 2插件的更新  
 
 *   [Exa Security Plugin](https://grails.org/plugin/exa-security) Enhance your application security with some tools - script, scaffolding, filters and more. This plugin is only compatible with Grails 2
 *   [Spring Security REST plugin](https://grails.org/plugin/spring-security-rest-redis) Grails plugin to implement token-based, RESTful authentication using Spring Security
@@ -144,6 +160,9 @@ Ok, the last article is not Groovy related directly, but just a great read ;)
 *   [Spud Blog Plugin](https://grails.org/plugin/spud-blog) Provides Blog / News functionality for Spud
 
 #### Interesting Tweets
+
+#### Tweet上有趣的微博  
+
 
 *   [@ysb33r](https://twitter.com/ysb33r/status/686580640402280448) Inspect the build script {} environment in #gradle 2.10+. Just do: grade buildEnvironment #gradleTip
 *   [@gradle](https://twitter.com/gradle/status/686554679275335680) Get instructor led training on Gradle for Android check it out: [http://buff.ly/20gboqu](http://buff.ly/20gboqu)
@@ -168,8 +187,11 @@ Ok, the last article is not Groovy related directly, but just a great read ;)
 
 #### Conferences and meetups
 
+#### 会议和见面会   
+
 *   [Austin Groovy and Grails Users: James Klee shows off the upcoming Angular Grails 3.1 Support](http://www.meetup.com/Austin-Groovy-and-Grails-Users/events/227928685/), Austin, Tx, January 14th, 2016
 *   [GR8Conf India](http://gr8conf.in/), New Delhi - India, January 16th, 2016
+*   [GR8Conf印度大会](http://gr8conf.in/), New Delhi - India, January 16th, 2016
 *   [Greach](http://greachconf.com/), Madrid - Spain, April 8th & 9th, 2016- [CFP is open!](http://greachconf.com/c4p/)
 *   [Spring I/O](http://www.springio.net/), Barcelona - Spain, May 19th - 20th, 2016
 *   [GR8conf Europe](http://gr8conf.eu/), Copenhagen - Denmark, June 1st -3rd, 2016.- [CFP is open!](http://cfp.gr8conf.org/)
