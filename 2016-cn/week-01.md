@@ -1,72 +1,45 @@
 # Grails日志 - 2016年第一周 <small>2016年1月11日</small>
 
-> 原文档可以在(该链接)[http://grydeske.net/news/show/124]上    
+> 原文档在(该链接)[http://grydeske.net/news/show/124]上    
 
 
-This is the first diary covering 2016, with the news from the Groovy ecosystem. Next weeks edition might be delayed, due to GR8Conf India taking place on Saturday January 16th. I will try to catch a bit of the news from the event.
+这是2016年的第一篇关于Groovy生态新闻的日志。因为GR8Conf印度会议将在一月16号星期六召开，下周的版本可能会推迟。我将会努力收集该会议上的一些新闻。   
 
-这是2016年的第一篇关于Groovy生态系统新闻的日志。因为GR8Conf印度大会将在一月16号星期六召开，下周的版本可能会推迟。我将会努力挖掘大会上的一些新闻。   
 
-For Groovy, the switch to the Apache Software Foundation, has not hurt the number of downloads. Guillaume has checked the numbers, and for 2015, the results are
-
-虽然Groovy已经加入Apache软件基金会了，但是这并没有影响到它的下载量。Guillaume核查了下载数据，2015年的下载数据如下：   
-
-*   Maven central: 8 million
+虽然Groovy已经加入Apache软件基金会了，但是这并没有影响到它的下载量。Guillaume已经核查了下载数据，2015年的下载数据如下：   
 
 *   Maven central: 8百万
 
-*   Bintray: 4.7 million
-
 *   Bintray: 4百7十万   
-
-*   Total downloads: 12.7 millions!
 
 
 *   全部下载量: 1千2百7十万  
 
-The Grails and Gradle usage is on top of this. Very impressive numbers, and even Groovy's twitter account, [@ApacheGroovy](https://twitter.com/ApacheGroovy) has passed 1000 followers. Follow [@ApacheGroovy](https://twitter.com/ApacheGroovy) for nice updates, on f.x. [Features borrowed from #groovylang in @SwiftLang](https://twitter.com/ApacheGroovy/status/685397052373757952)
+Grails和Gradle使用量最高的。这些下载数据令人很振奋，甚至Groovy的twitter账号( [@ApacheGroovy](https://twitter.com/ApacheGroovy))也已经有超过1000个关注者了。请关注[@ApacheGroovy](https://twitter.com/ApacheGroovy)获得实时更新。[Swift从groovy借用了一些特性。](https://twitter.com/ApacheGroovy/status/685397052373757952)   
 
 
-Grails和Gradle使用量是最高的。更令人振奋的是，Groovy的twitter账号( [@ApacheGroovy](https://twitter.com/ApacheGroovy))已经有1000个关注者了。请关注[@ApacheGroovy](https://twitter.com/ApacheGroovy)获得实时更新。Swift语言从groovy借用了一些特性。   
-
-
-Eugene Kamenev has started work on supporting [OrientDb](http://orientdb.com/) in Grails. You can follow the work in [the git repo](https://github.com/eugene-kamenev/grails-data-mapping)
-
-Eugene Kamenev已经开始在做支持[OrientDb](http://orientdb.com/)数据库的工作了。你可以在[github]((https://github.com/eugene-kamenev/grails-data-mapping))中进行跟踪。   
+Eugene Kamenev已经开始在做Grails支持[OrientDb](http://orientdb.com/)数据库的工作了。你可以在[github]((https://github.com/eugene-kamenev/grails-data-mapping))上追踪工作的进程情况。   
 
 
 
-Six new GR8 CRM plugins have recently been published and approved for Grails 2.x, extending the GR8 CRM collection to more than 25 released plugins. Göran Ehrsson is now looking into [even better CRM functionality for Grails 3](https://twitter.com/gr8crm/status/684752486423506944)
+六个新的GR8客户关系管理插件已经发布并在Grails 2.x上通过了，加上这六个插件GR8的客户关系管理插件目前已经增加到25个了。Göran Ehrsson正在探索如何给Grails 3天添加更好的客户关系管理功能。   
 
 
-六个新的GR8客户关系管理插件已经发布并在Grails 2.x上通过了，GR8的客户关系管理插件目前已经增加到25个了。Göran Ehrsson正在给Grails 3探索更好的客户关系管理功能。   
+如果你参加了一月底在柏林举办的Voxxed日，你应该倾听了Alvaro Sanchez-Mariscal[使用Ratpack框架实现基于JVM上更高效的http应用](http://voxxeddaysberlin2016.sched.org/event/4jx9/efficient-http-applications-on-the-jvm-with-ratpack)的演讲。如果你想要体验Ratpack，你可以下载他的试验品[Ratpack 101](http://alvarosanchez.github.io/ratpack-101/).我在编程马拉松中尝试过Ratpack，这是一个很好的框架，文档在过去的一个月内也有了很好的完善。   
 
-
-If you attend Voxxed Days in Berlin in the end of January, you should drop by Alvaro Sanchez-Mariscal's session on [Efficient HTTP applications on the JVM with Ratpack](http://voxxeddaysberlin2016.sched.org/event/4jx9/efficient-http-applications-on-the-jvm-with-ratpack). If you just wish to experiment with Ratpack, you can also check out the material for his workshop [Ratpack 101](http://alvarosanchez.github.io/ratpack-101/). I triedut Ratpack on a team hackathon, and it is a great framework, and the docs have been improved much over the last months.
-
-如果你参加了一月底在柏林举办的Voxxed日，你应该倾听了Alvaro Sanchez-Mariscal[使用Ratpack框架基于JVM上更高效的http应用]](http://voxxeddaysberlin2016.sched.org/event/4jx9/efficient-http-applications-on-the-jvm-with-ratpack)的演讲。如果你想要体验Ratpack，你可以下载他的试验用的[Ratpack 101](http://alvarosanchez.github.io/ratpack-101/).我在编程马拉松中尝试过Ratpack，这是一个很好的框架，文档在过去的一个月内也有了很好的完善。   
-
-The next GR8Conf EU will be moved and take place June 1st to 3rd, as it would have been hard to book hotel rooms at the original dates. More info will come shortly.
-
-下一届的GR8Conf会议将在六月一号到三号举行，到那时候会很难预定酒店。我将会报道更多会议的新闻。   
-
-#### Podcasts and Videos of Presentations
+下一届的GR8Conf欧洲会议将在六月一号到三号举行，到那时候将会很难预定酒店。我将会报道更多的会议新闻。   
 
 #### 会议的播客和视频   
 
-*   [Testing with Spock: The Logical Choice](http://www.infoq.com/presentations/testng-groovy-spock) (Iván López from SpringOne 2gx 2015)
 *   [对Spock框架(Groovy的单元测试框架)的测试：逻辑选择](http://www.infoq.com/presentations/testng-groovy-spock) (Iván López from SpringOne 2gx 2015)
-*   [Convention over Configuration: the Gradle way](http://www.infoq.com/presentations/gradle-maven) (Cédric Champeau from SpringOne 2gx 2015)
 *   [约定优于配置:Gradle之路](http://www.infoq.com/presentations/gradle-maven) (Cédric Champeau from SpringOne 2gx 2015)
-*   [Simple, Lean, Powerful HTTP Applications with Ratpack](http://www.infoq.com/presentations/ratpack-http) (Ken Kousen from SpringOne 2gx 2015)
 *   [使用Ratpack编写简单可靠高效的http应用](http://www.infoq.com/presentations/ratpack-http) (Ken Kousen from SpringOne 2gx 2015)    
 
 #### Blogs, Articles, etc.
 
 #### 播客，文章等   
 
-*   [Changing the embedded server in Grails 3](https://objectpartners.com/2016/01/07/changed-the-embedded-server-in-grails-3/) (Mike Hostetler)
-*   [在Grails3中替换内置的服务器](https://objectpartners.com/2016/01/07/changed-the-embedded-server-in-grails-3/) (Mike Hostetler)    
+*   [替换Grails3的内置服务器](https://objectpartners.com/2016/01/07/changed-the-embedded-server-in-grails-3/) (Mike Hostetler)  
 *   [Flirting with disaster: A dangerous use of Groovy’s dynamic method invocation](https://objectpartners.com/2016/01/05/flirting-with-disaster-a-dangerous-use-of-groovys-dynamic-method-invocation/) (Shawn Flahave)
 *   [玩火自封：危险的Groovy动态方法调用](https://objectpartners.com/2016/01/05/flirting-with-disaster-a-dangerous-use-of-groovys-dynamic-method-invocation/) (Shawn Flahave)
 *   [Groovy default params to avoid one-argument methods being called without params](http://glaforge.appspot.com/article/groovy-default-params-to-avoid-one-argument-methods-being-called-without-params) (Guillaume Laforge)
