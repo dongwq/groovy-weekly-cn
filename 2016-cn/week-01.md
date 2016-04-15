@@ -1,17 +1,11 @@
+# Grails日志 - 2016年第一周 <small>2016年1月11日</small>
 
-# Grails Diary - Week 1 in 2016 <small>11-01-2016</small>
-
-# Grails日记 - 2016年第一周 <small>2016年1月11日</small>
-
-> original at (link)[http://grydeske.net/news/show/124]
-
-> 原文档可以在(该链接)[http://grydeske.net/news/show/124]上找到    
-
+> 原文档可以在(该链接)[http://grydeske.net/news/show/124]上    
 
 
 This is the first diary covering 2016, with the news from the Groovy ecosystem. Next weeks edition might be delayed, due to GR8Conf India taking place on Saturday January 16th. I will try to catch a bit of the news from the event.
 
-这是2016年的第一篇关于Groovy生态系统新闻的日记。因为GR8Conf印度大会将在一月16号星期六召开，下周的版本可能会推迟。我将会努力挖掘大会上的一些新闻。   
+这是2016年的第一篇关于Groovy生态系统新闻的日志。因为GR8Conf印度大会将在一月16号星期六召开，下周的版本可能会推迟。我将会努力挖掘大会上的一些新闻。   
 
 For Groovy, the switch to the Apache Software Foundation, has not hurt the number of downloads. Guillaume has checked the numbers, and for 2015, the results are
 
