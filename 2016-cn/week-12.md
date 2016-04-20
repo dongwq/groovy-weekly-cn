@@ -1,31 +1,54 @@
 
-# Grails Diary - Week 12 in 2016 <small>28-03-2016</small>
+# Grails 日志 - 2016年第12周 <small>28-03-2016</small>
 
 > original at (link)[http://grydeske.net/news/show/132]
+> 原文档(链接)[http://grydeske.net/news/show/132]
 
 This easter edition of the Grails Diary is quite short. I'm not the only one that has taken some time off. In less than two weeks, Greach will be in the books, and I have spend some of the easter break preparing my presentation. The Javascript/Node world has taken the most headlines, and this edition is a bit thin on news.
 
+这一期的Grails日志相当短。两周后Greach大会将开始。像我一样，好多人都在为此忙于准备演讲。而Javascript/Node最近比较热门。
+
 In the Conferences and meetups section, you can see that Mexico is now on the Grails map; as the first Grails first meetup in now announced. Also Grails relevant news: Burt Beckwith has released a bugfix version of the [spring-security-core](https://grails-plugins.github.io/grails-spring-security-core/) Grails 3 plugin.
+
+本期的会议与聚会部分，Grails的初次聚会奖在墨西哥举办。同时可以注意到Burt Beckwith发布了新的基于Grails 3的[spring-security-core](https://grails-plugins.github.io/grails-spring-security-core/) Bug修复版本。
 
 With the noise from the npm world this week, it might be worth checking out Craig Burke's [client-dependencies-gradle](https://github.com/craigburke/client-dependencies-gradle) plugin, which is newly released in version 0.5.0\. It allows you to declare client side dependencies bower, npm or git querying the registries directly so it doesn’t require or install node, npm or bower. The next version should be 1.0.
 
+Craig Burke开发的插件[client-dependencies-gradle](https://github.com/craigburke/client-dependencies-gradle)可让方便在Grails项目中的使用node包管理平台(npm/bower)世界中提供各个组件。他刚发布了最新的0.5.0版本。下个版本将会是是1.0.
+
 Schalk Cronjé has also updated the [GradleTest plugin](https://plugins.gradle.org/plugin/org.ysb33r.gradletest), now in version 0.5.5\. With it, it is easier to test compatibility with various versions on Gradle.
+
+Schalk Cronjé更新了[GradleTest plugin](https://plugins.gradle.org/plugin/org.ysb33r.gradletest)到新版本0.5.5\. 这个版本方便你使用不同版本的Gradle都可以用来执行测试。
 
 Liviu Tudor has shared his slides on "Managing dependencies with gradle" in the in Netflix Ads Engineering department.
 
+Liviu Tudor在Netflix 广告工程部门有一个"Gradle依赖管理"的分享。
+
 In a quiet week, it is always worth to take on an old discussion: "Is it pssible to write build.gradle in pure Java..?", is one of them. You can find it [the Gradle Forum,](https://discuss.gradle.org/t/possible-to-write-build-gradle-in-pure-java/9317/38?u=schalk_cronje) with replies from Schalk Cronjé, Hans Docktor, Luke Daley etc.
+
+尽管本周内容比较少，但在[Gradle论坛](https://discuss.gradle.org/t/possible-to-write-build-gradle-in-pure-java/9317/38?u=schalk_cronje)中，有一个话题『是否可能在gradle的build.gradle中使用线java?』。有几个不错的来自Schalk Cronjé, Hans Docktor, Luke Daley等的回复。大家可以看看。
 
 Eric Helgeson has made a demo on how to [use Redis to externalize your sessions](https://github.com/erichelgeson/grails3-redis-session/commits/master) in Grails 3.1.4
 
+Eric Helgeson给出一个基于Grails 3.1.4的如何[用Redis保存web会话(Session)](https://github.com/erichelgeson/grails3-redis-session/commits/master)的示例。
+
 GR8Conf Eu tickets have been on sale for a while, but now [GR8Conf US registration is open,](https://ti.to/gr8conf/gr8conf-2016) and Door Buster tickets are still available.
+
+GR8Conf欧洲会议卖票已经有一段时间了, 而现在[GR8Conf美国会议](https://ti.to/gr8conf/gr8conf-2016) 仍然开放注册，仍然还可以买票。
 
 At Greach, the surprise session is now officially a [Groovy puzzlers show with Noam Tenne!](https://t.co/7NNv3OHYML) It will be the first time at Greach, but always worth it!
 
+
+在Greach会议上, [Noam Tenner的Groovy puzzlers!](https://t.co/7NNv3OHYML)正式亮相，这是此话题第一次出现在Greach会议。
+
+
 #### Podcasts and Videos of Presentations
+#### Podcast和演讲视频
 
 *   [A Grails Quickcast #2: JSON Views](https://dzone.com/articles/oci-and-dzone-present-a-grails-quickcast-2) (Jeff Scott Brown)
 
 #### Blogs, Articles, etc.
+#### 博客文章等
 
 This week has been low on articles, but Baruchs article is a great reminder of why the JVM world is a nice place.
 
@@ -35,6 +58,7 @@ This week has been low on articles, but Baruchs article is a great reminder of w
 [![](http://grydeske.net/fileUploader/show/42)](http://gr8conf.eu/#/)  
 
 #### Updated Grails 3 Plugins
+#### 更新的 Grails 3 插件
 
 *   [newrelic](https://bintray.com/agorapulse/plugins/org.grails.plugins:newrelic/view) (3.26.1.1) Grails NewRelic plugin
 *   [spring-security-core](https://bintray.com/grails/plugins/spring-security-core/view) (3.0.4) Grails spring-security-core plugin
@@ -43,11 +67,13 @@ This week has been low on articles, but Baruchs article is a great reminder of w
 *   [wkhtmltopdf](https://bintray.com/rlovtangen/plugins/wkhtmltopdf/view) (1.0.0.RC6) Grails wkhtmltopdf plugin
 
 #### Updated Grails 2 Plugins
+#### 更新的 Grails 2 插件
 
 *   [Grails DataTables Plugin](https://grails.org/plugin/grails-datatables) This plugin allows you to quickly add feature-rich tables to your Grails application. It uses the excellent DataTables plugin for jQuery created by SpryM
 *   [Mailing List Plugin](https://grails.org/plugin/mailinglist) Schedule emails to a mailing group or to a person using dynamic quartz scheduling. Schedules stored within DB and upon application restart incomplete or future schedules are re-added to quartz queue.
 
 #### Interesting Tweets
+#### 有趣的推特
 
 *   [@gradle](https://twitter.com/gradle/status/714482965976207360) #Gradle is now the official build system for Android Studio. Watch the video:[http://buff.ly/1Ml6tAV](http://buff.ly/1Ml6tAV)
 *   [@greatindiandev](https://twitter.com/greatindiandev/status/714072256717070337) Meet these awesome speakers at India's biggest developer event #gids16: [http://bit.ly/1SeDjQs](http://bit.ly/1SeDjQs) [https://t.co/6zjQaK6fiU](https://t.co/6zjQaK6fiU)
@@ -73,6 +99,7 @@ This week has been low on articles, but Baruchs article is a great reminder of w
 *   [@GDBolinger](https://twitter.com/GDBolinger/status/712004773646458881) Need a #grailsfw engineer to join your team? Ping me. #remote preferred.
 
 #### Conferences and meetups
+#### 会议与聚会
 
 *   [Webcast: Seriously, Use Groovy NOW](http://www.oreilly.com/pub/e/3648?cmp=tw-prog-webcast-info-webcast_cmjrs), Online, March 29th, 2016
 *   [Pittsburgh Groovy Programming: Social Dev to Dev](http://www.meetup.com/Pittsburgh-Groovy-Programming/events/229849546/?a=socialmedia) , Pittsburgh, PA, March 31st, 2016
