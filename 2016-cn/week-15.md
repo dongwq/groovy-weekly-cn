@@ -1,27 +1,51 @@
 
 # Grails Diary - Week 15 in 2016 <small>18-04-2016</small>
 
+# Grails 周报 - 2016年第15周 <small>18-04-2016</small>
+
 > original at (link)[http://grydeske.net/news/show/134]
+
+> 源文档见(链接)[http://grydeske.net/news/show/134]
 
 Last weeks edition of the Grails Diary was heavy on conference videos, slides and articles. This week, it is more of a release edition, including the release of a new set of utilities to assist when developing Groovy AST transformations.
 
+上周的内容以会议视频，PPT和文章居多。本周的新发布内容较多，包括一系列Groovy AST相关的工具。
+
 The Grails team has released bugfix version og the 3.0 and 3.1 line, to be exact [3.0.16](https://github.com/grails/grails-core/releases/tag/v3.0.16) and [3.1.5](https://github.com/grails/grails-core/releases/tag/v3.1.5). A couple of the issues are labelled with Blocker, so it is probably worth an upgrade if you are on Grails 3 now.
+
+Grails团队发布了两个bug修复版本[3.0.16](https://github.com/grails/grails-core/releases/tag/v3.0.16) 和 [3.1.5](https://github.com/grails/grails-core/releases/tag/v3.1.5). 好多个bug问题都是打了Blocker标签的，相对比较重要，所以这两个版本推荐升级。
 
 Along with releases of the framework, there is a couple of noteworthy plugin upgrades. Burt have released milestone 2 of the spring-security-ui plugin for Grails 3, with [updated documentation too](https://grails-plugins.github.io/grails-spring-security-ui/). Puneet Behl from To the New Digital, have published version 1.0.0.1 of the Elasticsearch plugin for Grails 3, also with [improved documentation](http://noamt.github.io/elasticsearch-grails-plugin/docs/index.html). The list of plugins updated to Grails 3 by Puneet is long and impressive!
 
+与此同时，有几个值得关注的插件得到了更新。spring-security-ui插件发布了m2版本和[相应更新了的文档](https://grails-plugins.github.io/grails-spring-security-ui/)。Puneet Behlv 发布了适用Grails 3的Elasticsearch插件的1.0.0.1版本和[文档](http://noamt.github.io/elasticsearch-grails-plugin/docs/index.html)。本周的插件更新列表比较长。
+
 Mario García, who recently gave a great presentation on AST transformations at Greach, have released [Asteroid](https://github.com/grooviter/asteroid/), a set of utilities to make it easier to develop AST transformations in Groovy. The documentation is [found here.](http://grooviter.github.io/asteroid/)
+
+Mario García做了一个非常不错的关于AST transformations的演讲，并发布了的相关项目[Asteroid](https://github.com/grooviter/asteroid/)
+。这个项目可以帮助你更容易的使用AST transformations做开发。文档在[这里.](http://grooviter.github.io/asteroid/)
 
 Thank you Groovy Podcast for the shoutout! Latest edition can be found in the video section, and the show notes for all the podcast episodes is available in [this repo.](https://github.com/pledbrook/groovypodcast) Witty and informative at the same time!
 
+新一其的Groovy Podcast出来了。你可以在视频部分看到，并且可以在[这里]((https://github.com/pledbrook/groovypodcast))看到每期podcast的
+笔记。听聪明人聊技术，快乐成长每一天。
+
 The first release candidate of Ratpack 1.3 is out, with upcomming [release notes available here](https://ratpack.io/versions/1.3.0). Jeff Beck advertised several of the new features at Greach, including the possibility to order dependent services. The slides and code from Jeff's talk is available in last weeks edition of the Grails Diary. Several dependencies have been updated including Netty and Groovy, a new include() method in the Groovy script DSL to compose an app from discrete scripts, and a new Promise.time() method to measure completion time of a promise.
+
+Ratpack 1.3 rc1版本发布了，[更新日志在这里](https://ratpack.io/versions/1.3.0)。作者Jeff Beck在Greach大会上声称有几个重要的新特性
+//TODO
 
 Tobias Gesellchen has updated his Docker client written in Groovy, so it now now supports named pipes on Windows 10 with Docker 1.11\. The project is [found here](https://github.com/gesellix/docker-client). This is the library behind his [gradle-docker-plugin](https://github.com/gesellix/gradle-docker-plugin).
 
+//TODO
+
 #### Podcasts and Videos of Presentations
+
+#### Podcasts 和 视频讲演
 
 *   [Groovy Podcast Ep 26](https://www.youtube.com/watch?v=IqMhAiecaeU) (Ken Kousen and Baruch Sadogursky)
 
 #### Blogs, Articles, etc.
+#### 博客文章等
 
 *   [Upgrading to Grails 3](https://erichelgeson.github.io/blog/2016/04/17/upgrading-grails-3/) (Eric Helgeson)
 *   [Using Self Contained Node.js and npm instances with Gradle](https://objectpartners.com/2016/04/14/using-self-contained-node-js-and-npm-instances-with-gradle/) (Jeff Torson)
@@ -34,10 +58,12 @@ Tobias Gesellchen has updated his Docker client written in Groovy, so it now now
 [![](http://grydeske.net/fileUploader/show/43)](http://gr8conf.eu/#/)
 
 #### New Grails 3 Plugins
+#### 新的 Grails 3 插件
 
 *   [hazelgrails](https://bintray.com/enesakar/plugins/hazelgrails/view) (1.0.2) Hazelcast Grails Integration
 
 #### Updated Grails 3 Plugins
+#### 更新的 Grails 3 插件
 
 *   [boselecta](https://bintray.com/vahid/maven/boselecta/view) (3.0.4) Websocket autocomplete/ multi dependency selection plugin for grails 3
 *   [jssh](https://bintray.com/vahid/maven/jssh/view) (3.0.2) Grails j2ssh plugin
@@ -52,6 +78,7 @@ Tobias Gesellchen has updated his Docker client written in Groovy, so it now now
 *   [aws-sdk](https://bintray.com/agorapulse/plugins/org.grails.plugins:aws-sdk/view) (1.10.69) Grails AWS SDK plugin
 
 #### Updated Grails 2 Plugins
+#### 更新的 Grails 2 插件
 
 *   [Recurly Plugin](https://grails.org/plugin/recurly) Recurly Grails API.
 *   [Grails Audit Trail Plugin](https://grails.org/plugin/audit-trail) This plugin lets you add an annotation to your domain classes so they will get a user and date stamp after a new insert or update.
@@ -60,6 +87,7 @@ Tobias Gesellchen has updated his Docker client written in Groovy, so it now now
 *   [Karman Plugin](https://grails.org/plugin/karman) Karman is a standardized / extensible interface plugin for dealing with various cloud services including Local and S3.
 
 #### Interesting Tweets
+#### 相关的有推特
 
 *   [@bsideup](https://twitter.com/bsideup/status/721971136494497793) @marioggar @ApacheGroovy did you know that you can use macro {} without 2.5? [https://github.com/bsideup/MacroGroovy](https://github.com/bsideup/MacroGroovy) it's the same impl (was merged to core)
 *   [@kenkousen](https://twitter.com/kenkousen/status/721729439852339200) Reason enough to go right there [https://twitter.com/gr8conf/status/721725046348259328](https://twitter.com/gr8conf/status/721725046348259328)
@@ -87,6 +115,7 @@ Tobias Gesellchen has updated his Docker client written in Groovy, so it now now
 *   [@puneetbhl](https://twitter.com/puneetbhl/status/719897074821496832) @NCapito @grailsframework That's not true, we are using Grails from last 6 or more years to build products from scratch and it's awesome.
 
 #### Conferences and meetups
+#### 会议与见面会
 
 *   [Groovy Users of Minnesota: Codenarc Revisited](http://www.meetup.com/groovymn/events/230230141/), Minneapolis, Mn, May 10th, 2016.
 *   [GR8conf Europe & Gradle Event](http://gr8conf.eu/), Copenhagen - Denmark, June 1st -3rd, 2016.
