@@ -32,14 +32,13 @@ Thank you Groovy Podcast for the shoutout! Latest edition can be found in the vi
 The first release candidate of Ratpack 1.3 is out, with upcomming [release notes available here](https://ratpack.io/versions/1.3.0). Jeff Beck advertised several of the new features at Greach, including the possibility to order dependent services. The slides and code from Jeff's talk is available in last weeks edition of the Grails Diary. Several dependencies have been updated including Netty and Groovy, a new include() method in the Groovy script DSL to compose an app from discrete scripts, and a new Promise.time() method to measure completion time of a promise.
 
 Ratpack 1.3 rc1版本发布了，[更新日志在这里](https://ratpack.io/versions/1.3.0)。作者Jeff Beck在Greach大会上声称有几个重要的新特性
-//TODO
+//TODO 需要消化消化再来翻译。
 
 Tobias Gesellchen has updated his Docker client written in Groovy, so it now now supports named pipes on Windows 10 with Docker 1.11\. The project is [found here](https://github.com/gesellix/docker-client). This is the library behind his [gradle-docker-plugin](https://github.com/gesellix/gradle-docker-plugin).
 
-//TODO
+Tobias Gesellchen更新了他用Groovy语言写的Docker客户端，这个版本使用Docker1.11，所以支持win 10的命名管道。这个项目在[这里](https://github.com/gesellix/docker-client).它使用这个项目写了他的[gradle-docker-plugin](https://github.com/gesellix/gradle-docker-plugin)
 
 #### Podcasts and Videos of Presentations
-
 #### Podcasts 和 视频讲演
 
 *   [Groovy Podcast Ep 26](https://www.youtube.com/watch?v=IqMhAiecaeU) (Ken Kousen and Baruch Sadogursky)
@@ -47,7 +46,7 @@ Tobias Gesellchen has updated his Docker client written in Groovy, so it now now
 #### Blogs, Articles, etc.
 #### 博客文章等
 
-*   [Upgrading to Grails 3](https://erichelgeson.github.io/blog/2016/04/17/upgrading-grails-3/) (Eric Helgeson)
+*   [如何升级到Grails 3](https://erichelgeson.github.io/blog/2016/04/17/upgrading-grails-3/) (Eric Helgeson)，这个值得一个哦
 *   [Using Self Contained Node.js and npm instances with Gradle](https://objectpartners.com/2016/04/14/using-self-contained-node-js-and-npm-instances-with-gradle/) (Jeff Torson)
 *   [2 Rookie Java Constants and Enums Pitfalls](https://tedvinke.wordpress.com/2016/04/14/2-rookie-java-constants-and-enums-pitfalls/) (Ted Vinke)
 *   [Groovy Calamari - Issue 31](http://groovycalamari.com/issues/31) (Sergio del Amo)
