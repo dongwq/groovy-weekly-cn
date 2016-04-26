@@ -31,7 +31,7 @@ Thank you Groovy Podcast for the shoutout! Latest edition can be found in the vi
 The first release candidate of Ratpack 1.3 is out, with upcomming [release notes available here](https://ratpack.io/versions/1.3.0). Jeff Beck advertised several of the new features at Greach, including the possibility to order dependent services. The slides and code from Jeff's talk is available in last weeks edition of the Grails Diary. Several dependencies have been updated including Netty and Groovy, a new include() method in the Groovy script DSL to compose an app from discrete scripts, and a new Promise.time() method to measure completion time of a promise.
 
 Ratpack 1.3 rc1版本发布了，更新日志在[这里](https://ratpack.io/versions/1.3.0)。作者Jeff Beck在Greach大会上声称有几个重要的新特性
-，比如依赖的服务之前可以排序了。它的讲演和PPT在上周的Grails周报中已经提到。这个版本的Ratpack同时更新了依赖的Netty和Groovy版本， 提供了一个基于Groovy DSL的include(), 这个脚本文件，可以拆分成多个小的了。提供了一个Promise.time()方法，可以用来试题一个promise的执行用时。
+，比如依赖的服务之间可以排序了。此次的讲演和PPT在上周的Grails周报中已经提到。这个版本的Ratpack同时更新了依赖的Netty和Groovy库， 提供了一个基于Groovy DSL的include()方法, 这样脚本文件就可以拆分成多个更小的了。提供了一个Promise.time()方法，可以用来度量一个promise的执行耗时。
 
 Tobias Gesellchen has updated his Docker client written in Groovy, so it now now supports named pipes on Windows 10 with Docker 1.11\. The project is [found here](https://github.com/gesellix/docker-client). This is the library behind his [gradle-docker-plugin](https://github.com/gesellix/gradle-docker-plugin).
 
