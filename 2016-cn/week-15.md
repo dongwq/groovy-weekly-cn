@@ -17,26 +17,25 @@ Grails团队发布了两个bug修复版本[3.0.16](https://github.com/grails/gra
 
 Along with releases of the framework, there is a couple of noteworthy plugin upgrades. Burt have released milestone 2 of the spring-security-ui plugin for Grails 3, with [updated documentation too](https://grails-plugins.github.io/grails-spring-security-ui/). Puneet Behl from To the New Digital, have published version 1.0.0.1 of the Elasticsearch plugin for Grails 3, also with [improved documentation](http://noamt.github.io/elasticsearch-grails-plugin/docs/index.html). The list of plugins updated to Grails 3 by Puneet is long and impressive!
 
-与此同时，有几个值得关注的插件得到了更新。spring-security-ui插件发布了m2版本和[相应更新了的文档](https://grails-plugins.github.io/grails-spring-security-ui/)。Puneet Behlv 发布了适用Grails 3的Elasticsearch插件的1.0.0.1版本和[文档](http://noamt.github.io/elasticsearch-grails-plugin/docs/index.html)。本周的插件更新列表比较长。
+与此同时，有几个值得关注的插件得到了更新。spring-security-ui插件发布了m2版本和[更新了相应的文档](https://grails-plugins.github.io/grails-spring-security-ui/)。Puneet Behlv发布了适用Grails 3的Elasticsearch插件的1.0.0.1版本和[文档](http://noamt.github.io/elasticsearch-grails-plugin/docs/index.html)。本周的插件更新列表比较长。
 
 Mario García, who recently gave a great presentation on AST transformations at Greach, have released [Asteroid](https://github.com/grooviter/asteroid/), a set of utilities to make it easier to develop AST transformations in Groovy. The documentation is [found here.](http://grooviter.github.io/asteroid/)
 
 Mario García做了一个非常不错的关于AST transformations的演讲，并发布了的相关项目[Asteroid](https://github.com/grooviter/asteroid/)
-。这个项目可以帮助你更容易的使用AST transformations做开发。文档在[这里.](http://grooviter.github.io/asteroid/)
+。这个项目可以帮助你更容易的使用AST transformations做开发，文档在[这里](http://grooviter.github.io/asteroid/)。
 
 Thank you Groovy Podcast for the shoutout! Latest edition can be found in the video section, and the show notes for all the podcast episodes is available in [this repo.](https://github.com/pledbrook/groovypodcast) Witty and informative at the same time!
 
-新一其的Groovy Podcast出来了。你可以在视频部分看到，并且可以在[这里]((https://github.com/pledbrook/groovypodcast))看到每期podcast的
-笔记。听聪明人聊技术，快乐成长每一天。
+新一期的Groovy Podcast出来了。你可以在视频部分看到，并且可以在[这里]((https://github.com/pledbrook/groovypodcast)看到以往各期podcast的笔记。听聪明人聊技术，快乐成长每一天。
 
 The first release candidate of Ratpack 1.3 is out, with upcomming [release notes available here](https://ratpack.io/versions/1.3.0). Jeff Beck advertised several of the new features at Greach, including the possibility to order dependent services. The slides and code from Jeff's talk is available in last weeks edition of the Grails Diary. Several dependencies have been updated including Netty and Groovy, a new include() method in the Groovy script DSL to compose an app from discrete scripts, and a new Promise.time() method to measure completion time of a promise.
 
-Ratpack 1.3 rc1版本发布了，[更新日志在这里](https://ratpack.io/versions/1.3.0)。作者Jeff Beck在Greach大会上声称有几个重要的新特性
-//TODO 需要消化消化再来翻译。
+Ratpack 1.3 rc1版本发布了，更新日志在[这里](https://ratpack.io/versions/1.3.0)。作者Jeff Beck在Greach大会上声称有几个重要的新特性
+，比如依赖的服务之前可以排序了。它的讲演和PPT在上周的Grails周报中已经提到。这个版本的Ratpack同时更新了依赖的Netty和Groovy版本， 提供了一个基于Groovy DSL的include(), 这个脚本文件，可以拆分成多个小的了。提供了一个Promise.time()方法，可以用来试题一个promise的执行用时。
 
 Tobias Gesellchen has updated his Docker client written in Groovy, so it now now supports named pipes on Windows 10 with Docker 1.11\. The project is [found here](https://github.com/gesellix/docker-client). This is the library behind his [gradle-docker-plugin](https://github.com/gesellix/gradle-docker-plugin).
 
-Tobias Gesellchen更新了他用Groovy语言写的Docker客户端，这个版本使用Docker1.11，所以支持win 10的命名管道。这个项目在[这里](https://github.com/gesellix/docker-client).它使用这个项目写了他的[gradle-docker-plugin](https://github.com/gesellix/gradle-docker-plugin)
+Tobias Gesellchen更新了他用Groovy语言写的Docker客户端，这个版本使用Docker1.11，可以支持win 10的命名管道。项目源码在[这里](https://github.com/gesellix/docker-client)。他使用这个项目写了个Docker的Gradle插件[gradle-docker-plugin](https://github.com/gesellix/gradle-docker-plugin)。
 
 #### Podcasts and Videos of Presentations
 #### Podcasts 和 视频讲演
