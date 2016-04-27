@@ -9,15 +9,15 @@
 
 Last weeks edition of the Grails Diary was heavy on conference videos, slides and articles. This week, it is more of a release edition, including the release of a new set of utilities to assist when developing Groovy AST transformations.
 
-上周的内容以会议视频，PPT和文章居多。本周的新发布内容较多，包括一系列辅助开发Groovy AST转换的工具。   
+上周Grails 日志内容以会议视频，PPT和文章居多，本周则主要包含新版发布，包括一系列可以帮助Groovy AST转换的工具。   
 
 The Grails team has released bugfix version og the 3.0 and 3.1 line, to be exact [3.0.16](https://github.com/grails/grails-core/releases/tag/v3.0.16) and [3.1.5](https://github.com/grails/grails-core/releases/tag/v3.1.5). A couple of the issues are labelled with Blocker, so it is probably worth an upgrade if you are on Grails 3 now.
 
-Grails团队发布了两个bug修复版本[3.0.16](https://github.com/grails/grails-core/releases/tag/v3.0.16) 和 [3.1.5](https://github.com/grails/grails-core/releases/tag/v3.1.5). 好多个bug问题都是打了Blocker标签的，相对比较重要，所以这两个版本推荐升级。
+Grails团队发布了两个bug修复版本[3.0.16](https://github.com/grails/grails-core/releases/tag/v3.0.16) 和 [3.1.5](https://github.com/grails/grails-core/releases/tag/v3.1.5). 好多个bug问题都是Blocker级别的，如果你正在使用Grails 3版本，推荐进行升级。
 
 Along with releases of the framework, there is a couple of noteworthy plugin upgrades. Burt have released milestone 2 of the spring-security-ui plugin for Grails 3, with [updated documentation too](https://grails-plugins.github.io/grails-spring-security-ui/). Puneet Behl from To the New Digital, have published version 1.0.0.1 of the Elasticsearch plugin for Grails 3, also with [improved documentation](http://noamt.github.io/elasticsearch-grails-plugin/docs/index.html). The list of plugins updated to Grails 3 by Puneet is long and impressive!
 
-与此同时，有几个值得关注的插件也更新。spring-security-ui插件发布了m2版本和[更新了相应的文档](https://grails-plugins.github.io/grails-spring-security-ui/)。Puneet Behlv发布了适用于Grails 3的Elasticsearch插件的1.0.0.1版本和[文档](http://noamt.github.io/elasticsearch-grails-plugin/docs/index.html)。本周的插件更新列表比较长。
+与此同时，有几个值得关注的插件也更新。spring-security-ui插件发布了m2版本和[更新了相应的文档](https://grails-plugins.github.io/grails-spring-security-ui/)。Puneet Behlv发布了适用于Grails 3的Elasticsearch插件的1.0.0.1版本和[文档](http://noamt.github.io/elasticsearch-grails-plugin/docs/index.html)。Puneet针对Grails 3的本次插件更新非常长，而且让人耳目一新。
 
 Mario García, who recently gave a great presentation on AST transformations at Greach, have released [Asteroid](https://github.com/grooviter/asteroid/), a set of utilities to make it easier to develop AST transformations in Groovy. The documentation is [found here.](http://grooviter.github.io/asteroid/)
 
@@ -26,7 +26,7 @@ Mario García做了一个非常不错的关于AST transformations的演讲，并
 
 Thank you Groovy Podcast for the shoutout! Latest edition can be found in the video section, and the show notes for all the podcast episodes is available in [this repo.](https://github.com/pledbrook/groovypodcast) Witty and informative at the same time!
 
-新一期的Groovy Podcast出来了。你可以在视频部分看到，并且可以在[这里]((https://github.com/pledbrook/groovypodcast)看到以往各期podcast的笔记。听聪明人聊技术，快乐成长每一天。
+新一期的Groovy Podcast破空而出，感谢Groovy podcast, 最新一期的视频可以通过此[链接]((https://github.com/pledbrook/groovypodcast)进行观看，同时以往各期podcast的笔记也整理[在此.]（https://github.com/pledbrook/groovypodcast）视频诙谐幽默，娱乐学习两不误。
 
 The first release candidate of Ratpack 1.3 is out, with upcomming [release notes available here](https://ratpack.io/versions/1.3.0). Jeff Beck advertised several of the new features at Greach, including the possibility to order dependent services. The slides and code from Jeff's talk is available in last weeks edition of the Grails Diary. Several dependencies have been updated including Netty and Groovy, a new include() method in the Groovy script DSL to compose an app from discrete scripts, and a new Promise.time() method to measure completion time of a promise.
 
