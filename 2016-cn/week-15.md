@@ -26,7 +26,7 @@ Mario García做了一个非常不错的关于AST transformations的演讲，并
 
 Thank you Groovy Podcast for the shoutout! Latest edition can be found in the video section, and the show notes for all the podcast episodes is available in [this repo.](https://github.com/pledbrook/groovypodcast) Witty and informative at the same time!
 
-新一期的Groovy Podcast破空而出，感谢Groovy podcast, 最新一期的视频可以通过此[链接]((https://github.com/pledbrook/groovypodcast)进行观看，同时以往各期podcast的笔记也整理[在此.]（https://github.com/pledbrook/groovypodcast）视频诙谐幽默，娱乐学习两不误。
+新一期的Groovy Podcast破空而出，感谢Groovy podcast, 最新一期的视频可以通过此 [链接](https://github.com/pledbrook/groovypodcast) 进行观看，同时以往各期podcast的笔记也整理[在此](https://github.com/pledbrook/groovypodcast).视频诙谐幽默，娱乐学习两不误。
 
 The first release candidate of Ratpack 1.3 is out, with upcomming [release notes available here](https://ratpack.io/versions/1.3.0). Jeff Beck advertised several of the new features at Greach, including the possibility to order dependent services. The slides and code from Jeff's talk is available in last weeks edition of the Grails Diary. Several dependencies have been updated including Netty and Groovy, a new include() method in the Groovy script DSL to compose an app from discrete scripts, and a new Promise.time() method to measure completion time of a promise.
 
