@@ -1,12 +1,8 @@
 # Grails日志 - 2016年第四周<small>2016年2月1号</small>
 
-> original at (link)[http://grydeske.net/news/show/126]
-
 > [源文档链接][http://grydeske.net/news/show/126]
 
-Grails 3 is really picking up steam! This week there are no new or updated Grails 2 plugins, but a lot of both for Grails 3.
-
-Grails 3在加速开发中。这周没有新的或更新的Grails 2插件，但是有一大把新的和更新的Grails 3插件。     
+Grails 3真的在飞速发展了。这周没有新的或更新的Grails 2插件，但是有一大把新的和更新的Grails 3插件。        
 
 Biggest news this week must be the release of [Grails 3.1](https://github.com/grails/grails-core/releases/tag/v3.1.0). The manual has a section on [What's new in Grails 3.1 Guide](http://grails.github.io/grails-doc/3.1.x/guide/introduction.html#whatsNew31), and the highlights are the improvements to profiles (publishing and repositories), the new REST API and AngularJS Profiles, the GORM 5 suite and plugins for publishing plugins. Graeme visited the [Groovy Podcast](https://www.youtube.com/watch?v=ZxExU0lbMUI&feature=youtu.be) discussing the history of Grails and the new 3.1 release   
 
@@ -15,9 +11,17 @@ Biggest news this week must be the release of [Grails 3.1](https://github.com/gr
 
 Burt Beckwith pointed to an article on [performance issues with Hibernate when the logging settings were changed](https://plumbr.eu/blog/io/how-we-accidentally-doubled-our-jdbc-traffic-with-hibernate). It is worth a read, as Grails/GORM for most of the drivers use Hibernate under the hood
 
+Burt Beckwith写了一篇[文章](https://plumbr.eu/blog/io/how-we-accidentally-doubled-our-jdbc-traffic-with-hibernate)指出日志设置会引发Hibernate性能问题。这篇文章值得一读，因为Grails/GORM底层使用的就是Hibernate。     
+  
 The Groovy team is discussing the roadmap for the next major release on the Groovy mailing list, and the wording of features. There are much work to be done, but also a steady stream of contributions.
 
+
+Groovy开发团队正在Groovy邮件列表上讨论Groovy下一个主要版本的路线图和语言特点。 这需要做很多工作，也意味着源源不断的贡献。     
+
+
 Power blogger Mr Haki (if you don't believe me, check the blog section) has updated four of his notebooks on leanpub: [Groovy Goodness](http://mrhaki.blogspot.dk/2016/02/groovy-goodness-notebook-is-updated.html) [Gradle Goodness](http://mrhaki.blogspot.dk/2016/02/gradle-goodness-notebook-updated.html) [Spocklight](http://mrhaki.blogspot.dk/2016/02/spocklight-notebook-is-updated.html) and [Grails Goodness](http://mrhaki.blogspot.dk/2016/02/grails-goodness-notebook-updated.html)
+
+超级博主Mr Haki（如果你不相信我，可以查看博客那部分章节）在leanpub更新了四篇笔记： [Groovy优点](http://mrhaki.blogspot.dk/2016/02/groovy-goodness-notebook-is-updated.html) [Gradle优点](http://mrhaki.blogspot.dk/2016/02/gradle-goodness-notebook-updated.html) [Spocklight](http://mrhaki.blogspot.dk/2016/02/spocklight-notebook-is-updated.html)和[Grails 优点](http://mrhaki.blogspot.dk/2016/02/grails-goodness-notebook-updated.html)                                                                                                                             
 
 Craig Burke has shared the [slides](http://www.craigburke.com/gradle-intro/) and [code](https://github.com/craigburke/gradle-intro) to go with the video for his "All About Gradle" talk in the video section.
 
