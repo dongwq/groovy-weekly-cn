@@ -4,36 +4,39 @@
 
 Grails 3真的在飞速发展了。这周没有新的或更新的Grails 2插件，但是有一大把新的和更新的Grails 3插件。        
 
-Biggest news this week must be the release of [Grails 3.1](https://github.com/grails/grails-core/releases/tag/v3.1.0). The manual has a section on [What's new in Grails 3.1 Guide](http://grails.github.io/grails-doc/3.1.x/guide/introduction.html#whatsNew31), and the highlights are the improvements to profiles (publishing and repositories), the new REST API and AngularJS Profiles, the GORM 5 suite and plugins for publishing plugins. Graeme visited the [Groovy Podcast](https://www.youtube.com/watch?v=ZxExU0lbMUI&feature=youtu.be) discussing the history of Grails and the new 3.1 release   
+这周最大的新闻就是[Grails 3.1](https://github.com/grails/grails-core/releases/tag/v3.1.0)的发布了。Grails文档中有[一个章节](http://grails.github.io/grails-doc/3.1.x/guide/introduction.html#whatsNew31)讲述了Grails 3中的新特性，重点是对自定义构建环境(profile)的加强(包括发布和仓库)，新的REST API和AngularJS自定义构建环境，和GORM 5套件以及方便发布插件的插件。Graeme接受了[Groovy Podcast](https://www.youtube.com/watch?v=ZxExU0lbMUI&feature=youtu.be)的采访，讨论了Grails的历史和最新的3.1版本。        
 
-
-这周最大的新闻就是[Grails 3.1](https://github.com/grails/grails-core/releases/tag/v3.1.0)的发布了。Grails文档中有[一个章节](http://grails.github.io/grails-doc/3.1.x/guide/introduction.html#whatsNew31)讲解了Grails 3中的新特性，重点是对自定义构建环境(profile)的加强(包括发布和仓库)，新的REST API和AngularJS自定义构建环境，和GORM 5套件以及方便发布插件的插件。Graeme拜访了[Groovy Podcast](https://www.youtube.com/watch?v=ZxExU0lbMUI&feature=youtu.be)并讨论Grails的历史和最新的3.1版本。     
-
-Burt Beckwith pointed to an article on [performance issues with Hibernate when the logging settings were changed](https://plumbr.eu/blog/io/how-we-accidentally-doubled-our-jdbc-traffic-with-hibernate). It is worth a read, as Grails/GORM for most of the drivers use Hibernate under the hood
-
-Burt Beckwith写了一篇[文章](https://plumbr.eu/blog/io/how-we-accidentally-doubled-our-jdbc-traffic-with-hibernate)指出日志设置会引发Hibernate性能问题。这篇文章值得一读，因为Grails/GORM底层使用的就是Hibernate。     
+Burt Beckwith在一篇[文章](https://plumbr.eu/blog/io/how-we-accidentally-doubled-our-jdbc-traffic-with-hibernate)中指出日志设置会引发Hibernate性能问题。这篇文章值得一读，因为Grails/GORM大多数情况下底层使用的就是Hibernate。       
   
-The Groovy team is discussing the roadmap for the next major release on the Groovy mailing list, and the wording of features. There are much work to be done, but also a steady stream of contributions.
-
-
 Groovy开发团队正在Groovy邮件列表上讨论Groovy下一个主要版本的路线图和语言特点。 这需要做很多工作，也意味着源源不断的贡献。     
 
 
 Power blogger Mr Haki (if you don't believe me, check the blog section) has updated four of his notebooks on leanpub: [Groovy Goodness](http://mrhaki.blogspot.dk/2016/02/groovy-goodness-notebook-is-updated.html) [Gradle Goodness](http://mrhaki.blogspot.dk/2016/02/gradle-goodness-notebook-updated.html) [Spocklight](http://mrhaki.blogspot.dk/2016/02/spocklight-notebook-is-updated.html) and [Grails Goodness](http://mrhaki.blogspot.dk/2016/02/grails-goodness-notebook-updated.html)
 
-超级博主Mr Haki（如果你不相信我，可以查看博客那部分章节）在leanpub更新了四篇笔记： [Groovy优点](http://mrhaki.blogspot.dk/2016/02/groovy-goodness-notebook-is-updated.html) [Gradle优点](http://mrhaki.blogspot.dk/2016/02/gradle-goodness-notebook-updated.html) [Spocklight](http://mrhaki.blogspot.dk/2016/02/spocklight-notebook-is-updated.html)和[Grails 优点](http://mrhaki.blogspot.dk/2016/02/grails-goodness-notebook-updated.html)                                                                                                                             
+超级博主Mr Haki（如果你不相信我，可以查看博客那章节）在leanpub更新了四篇笔记： [Groovy优点](http://mrhaki.blogspot.dk/2016/02/groovy-goodness-notebook-is-updated.html)、 [Gradle优点](http://mrhaki.blogspot.dk/2016/02/gradle-goodness-notebook-updated.html)、 [Spocklight](http://mrhaki.blogspot.dk/2016/02/spocklight-notebook-is-updated.html)和[Grails 优点](http://mrhaki.blogspot.dk/2016/02/grails-goodness-notebook-updated.html)                                                                                                                                
 
-Craig Burke has shared the [slides](http://www.craigburke.com/gradle-intro/) and [code](https://github.com/craigburke/gradle-intro) to go with the video for his "All About Gradle" talk in the video section.
+Craig Burke分享了《关于Gradle的一切》的视频以及相关的[PPT](http://www.craigburke.com/gradle-intro/)和(代码)[(https://github.com/craigburke/gradle-intro)]。      
 
 Phill Barber has tried to do a comparison of [Ratpack and Dropwizard](http://phillbarber.blogspot.com/2016/01/choosing-between-ratpack-and-dropwizard.html), and have measured performance and other metrics, and have Ratpack as his teams new framework.
 
+Phill Barber对[Ratpack和Dropwizard](http://phillbarber.blogspot.com/2016/01/choosing-between-ratpack-and-dropwizard.html)的性能和其他指标作了比较，并决定把Ratpack作为他们团队的新框架。   
+
 Peter Ledbrook is the instructor on a couple of [new courses on Groovy and Grails](http://blog.cacoethes.co.uk/groovyandgrails/a-new-approach-to-training), where instead of intensive one or more day training, the timespan is longer with feedback gradually. I'm interested in how Peters experiences with this style is, as it sounds promissing for long term retention of the material.
+
+Peter Ledbrook是一系列Groovy和Grails新课程的指导，这些课程不是一天或几天的加强训良，而是根据反馈不断改进延续。我对Peters对这种模式的体验很感兴趣，因为这意味着长期的投入。     
 
 After Spring One dropped the 2GX part, New No Fluff Just Stuff is instead having a dedicated Groovy, Grails and Gradle conference, the [G3 Summit](https://g3summit.com) this year in Fort Lauderdale late november/early december.
 
+随着Spring One取消了2GX，New No Fluff Just Stuff已经取代并成为专注与Groovy,Grails和Gradle的会议， 今年将于11月末12月初在劳德代尔堡召开的[G3 Summit](https://g3summit.com)会议。   
+
 Greach, the Spanish Groovy conference, has published [the agenda](http://greachconf.com/agenda/), with lots of interesting talks and speakers. I'll present a talk on Geb, and is really looking forward to visiting Spain again. Last year was a great experience! And the conference has extended the [early bird ticket](http://greachconf.com/#tickets) discount, with a few tickets, now that the agenda is out, - but hurry, there a only a few left!
 
+Greach，西班牙Groovy会议，已经公布了[会议议程](http://greachconf.com/agenda/),在议程中可以发现很多有意思的演讲和演讲者。我也会在Geb上发表演讲，真的非常盼望再一次访问西班牙。去年在那里过得很开心。大会提供了更多折扣的少数[early bird ticket](http://greachconf.com/#tickets)票，现在议程已经出来——赶紧呀，真的只有一些票剩下了。   
+
 The call for paper is still [open](http://cfp.gr8conf.org/login/auth), for both GR8Conf EU, GR8Conf US and a new mini conference in Warsaw, the GR8Day Warsaw on March 19th.
+
+GR8Conf欧洲会议, GR8Conf美国会议和3月19号在华沙召开的GR8Day会议还在征文中。   
+
 
 #### Podcasts and Videos of Presentations
 
