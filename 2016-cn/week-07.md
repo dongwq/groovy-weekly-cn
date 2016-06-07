@@ -19,21 +19,29 @@ Grails的Slack频道已经有超过1500位成员了。如果你还没有加入�
 Should Spock Framework have a real logo? Participate in the [survey](http://goo.gl/forms/1UlVm2kBxZ) by Søren Berg Glasius, to determine if a Kickstarter project should be initiated.
 Spock框架是不是应该要有一个真正的图标呢？请参加Søren Berg Glasius做的[调查访问](http://goo.gl/forms/1UlVm2kBxZ),Søren Berg Glasius想要知道是不是应该发布Kickstarter项目(类似于猪八戒的网站，在上面发布一个项目，做好之后给多少钱，现在Søren Berg Glasius就是想要知道要花多少钱开启这个项目。)
 Several great answers have been posted on Quora this week. Rob Fletcher has answered: [What are some tips, tricks and gotchas when using Spock Framework for testing?](https://www.quora.com/What-are-some-tips-tricks-and-gotchas-when-using-Spock-for-testing/answer/Rob-Fletcher?srid=hyqW&share=a35d9892) , Robert Dobbes has replied to [What are the pros and cons of Apache Groovy?](https://www.quora.com/What-are-the-pros-and-cons-of-Groovy/answer/Robert-Dobbes?srid=Ln3), and Guilaume Laforge has taken care of [What is the purpose of 'def ' in Groovy programming language?](https://www.quora.com/What-is-the-purpose-of-def-in-Groovy-programming-language/answer/Guillaume-Laforge?share=8b28b64b).
-这周Quora上有一些很棒的回答。
+这周Quora上有一些很棒的回答。Rob Fletcher回答了[使用Spock框架做测试的提示、技巧和疑难杂症](https://www.quora.com/What-are-some-tips-tricks-and-gotchas-when-using-Spock-for-testing/answer/Rob-Fletcher?srid=hyqW&share=a35d9892)，Robert Dobbes回复了[Apache Groovy的优缺点](https://www.quora.com/What-are-the-pros-and-cons-of-Groovy/answer/Robert-Dobbes?srid=Ln3)，Guilaume Laforge很好地回复了[Groovy语言中`def`的目的？](https://www.quora.com/What-is-the-purpose-of-def-in-Groovy-programming-language/answer/Guillaume-Laforge?share=8b28b64b)。   
 
 The Betamax project, started by Rob Fletcher, used for recording and replaying external Web APIs has a new website [betamax.software](http://betamax.software), and sees a bit of love from new contributors.
-
+Rob Fletcher发起的Betamax项目可以模拟发起和相应Web请求，这个项目现在有新的[网站](http://betamax.software)了,新的贡献者很喜欢这个项目。   
 Ratpack 1.2.0 is now officially released, with lots of new inprovements described in [the version description.](https://ratpack.io/versions/1.2.0) The Ratpack team expects bi-monthly minor releases in the future, and the framework has reached 1000 stars on GitHub!
+Ratpack 1.2.0正式发布了，在[版本描述](https://ratpack.io/versions/1.2.0)可以看出Ratpack有了很大的提升。Ratpack团队计划在将来每两个月发布一次小的更新，在GitHub上这个框架已经有1000个加星了。
 
 Craig Burke is taking on the Javascript dependency resolution war, with his Gradle plugin to install from Npm or Bower, without NodeJs, the documentation is [at GitHub in the repo](https://github.com/craigburke/client-dependencies-gradle) and the plugin is in [the Gradle Plugin Portal](https://plugins.gradle.org/plugin/com.craigburke.client-dependencies)
 
+Craig Burk正在解决Javascript依赖包问题，使用他做的Gradle插件就可以不用依赖NodeJs直接从Npm或Bower下载Javascript依赖包，该插件的文档在[Github](https://github.com/craigburke/client-dependencies-gradle)上并可以从[Gradle插件中心](https://plugins.gradle.org/plugin/com.craigburke.client-dependencies)下载插件。
 The "Java Testing with Spock" book by Konstantinos Kapelonis is close to the release on [Amazon](http://www.amazon.com/Java-Testing-Spock-Konstantinos-Kapelonis/dp/1617292532), and available for pre-order.
-
+Konstantinos Kapelonis的《使用Spock进行java测试》一书在[亚马逊](http://www.amazon.com/Java-Testing-Spock-Konstantinos-Kapelonis/dp/1617292532)上已经可以预定了，很快就可以销售了。
 Oh, and so there should be no doubt: #unfollowdanveloper. Thank you [Groovy Podcast](https://www.youtube.com/watch?v=6VbPV2FRZUU) for the reprimand.
+没有参加会议的开发者可以观看[Groovy Podcast](https://www.youtube.com/watch?v=6VbPV2FRZUU)了解详情。
 
 The registration for the one day event: Warsaw GR8 Day is [open](http://www.meetup.com/Warsaw-Groovy-User-Group/events/227938015/)
+一天的[华沙GR8日](http://www.meetup.com/Warsaw-Groovy-User-Group/events/227938015/)就要开始了，赶快预定酒店吧。  
+
 
 #### Podcasts and Videos of Presentations
+
+#### 会议的视频
+
 
 *   [Groovy Podcast Ep. 23](https://www.youtube.com/watch?v=6VbPV2FRZUU) (Ken Kousin and Baruch Sadogursky live from DevNexus 2016)
 *   [Gradle Plugin Basics](https://caster.io/episodes/gradle-plugin-basics/) (Annyce Davis)
