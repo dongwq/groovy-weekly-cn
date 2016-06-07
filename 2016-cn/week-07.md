@@ -1,17 +1,13 @@
-
 # Grails日志 - 2016年第七周<small>2016年2月22号</small>
-
-
 
 > (原文档链接)[http://grydeske.net/news/show/128]     
 
-
-
 Apache Groovy 2.4.6 has been released! And this release has solved a whooping 59 bugs, improved the documentation, and a number of general improvements around StreamingJsonBuilder, error-message for AST transformation, closures generated as public classes and more. See the [change log](http://groovy-lang.org/changelogs/changelog-2.4.6.html) for the full list of issues fixed. As always, the easiest way to upgrade is to use Sdkman, where Groovy 2.4.6 is already available.
 
-Apache的开源项目Groovy 2.4.6版本发布了！这个版本解决了高达59个bug，完善了文档，提升StreamingJsonBuilder，AST转换的错误信息，闭包生成公共类等。[修改日志](http://groovy-lang.org/changelogs/changelog-2.4.6.html)记录了全部修复的问题，有兴趣可以查看一下。升级Groovy最简单的办法就是使用Sdkman，Sdkman从Groovy2.4.6就开始提供了。
+Apache开源项目Groovy 2.4.6版本发布了！该版本解决了高达59个bug，完善了文档，提升`StreamingJsonBuilder`，AST转换的错误提示，闭包生成公共类等。[修改日志](http://groovy-lang.org/changelogs/changelog-2.4.6.html)记录了所有已经修复的问题，有兴趣可以查看一下。升级Groovy最简单的办法就是使用Sdkman，Sdkman从Groovy2.4.6版本就开始提供了。
 
 Cedric Champeau is using the #ThankAnOpenSourceContributorFriday tag on Twitter, which is a great thing. He however recently rediscover the [Groovy FileTreeBuilder,](http://groovy-lang.org/dsls.html#_filetreebuilder) for generating a file directory structure - and found out he had written it [himself!](https://twitter.com/CedricChampeau/status/700731350970736640). I had not seen it before, but can think of a couple of times it could have helped me in the past! Thank you Cedric for this!
+
 Cedric Champeau在推特上使用了#ThankAnOpenSourceContributorFriday标签。他最近重新发现了[Groovy FileTreeBuilder](http://groovy-lang.org/dsls.html#_filetreebuilder)生成文件目录结构的功能，还发现他以前亲自写过[Groovy FileTreeBuilder的文档](https://twitter.com/CedricChampeau/status/700731350970736640).我以前没有看过，但是想了一下发现我以前需要使用到`FileTreeBuilder`。很感谢Cedric。   
 
 The Grails Slack channel now have way more than 1500 members. If you still have not joined, you can do it at [slack-signup.grails.org](http://slack-signup.grails.org).
@@ -48,7 +44,12 @@ The registration for the one day event: Warsaw GR8 Day is [open](http://www.meet
 
 #### Blogs, Articles, etc.
 
-*   [Easy Database Manipulation with Groovy and Gradle](http://www.javacodegeeks.com/2016/02/easy-database-manipulation-groovy-gradle.html) (Steve Perkins)
+
+#### 博客，文章等
+
+*   [借助Groovy和Gradle简化数据库操作](http://www.javacodegeeks.com/2016/02/easy-database-manipulation-groovy-gradle.html) (Steve Perkins)
+
+
 *   [Grails Tips: How to install new Relic in a Grails 3 app?](http://sergiodelamo.es/grails-tips-how-to-install-new-relic-in-a-grails-3-app/) (Sergio del Amo)
 *   [How to force IntelliJ IDEA to run Grails tests in the Test Environment](http://sergiodelamo.es/how-to-force-intellij-idea-to-run-grails-tests-in-the-test-environment/) (Sergio del Amo)
 *   [Grails Tips: Increase Heap Space when running run-app in Grails 3 app](http://sergiodelamo.es/grails-tips-increase-heap-space-when-running-grails-run-app/) (Sergio del Amo)
