@@ -1,6 +1,6 @@
 # Grails日志 - 2016年第七周<small>2016年2月22号</small>
 
-> (原文档链接)[http://grydeske.net/news/show/128]     
+> (原文链接)[http://grydeske.net/news/show/128]     
 
 Apache Groovy 2.4.6 has been released! And this release has solved a whooping 59 bugs, improved the documentation, and a number of general improvements around StreamingJsonBuilder, error-message for AST transformation, closures generated as public classes and more. See the [change log](http://groovy-lang.org/changelogs/changelog-2.4.6.html) for the full list of issues fixed. As always, the easiest way to upgrade is to use Sdkman, where Groovy 2.4.6 is already available.
 
