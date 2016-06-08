@@ -30,7 +30,7 @@ We don’t hype Groovy as much as we used to, but it’s absolutely entrenched i
 ## Gradle作为Groovy应用服务器
 
 History aside, let’s talk about a recent use case that lead me to dust off my Groovy skills.  I needed to quickly stand up a registry of “key-value” config parameters, for a number of applications running within a number of environments.  I wanted to capture these parameters in source control as a collection of properties files.  One file for each application, nested within a subdirectory for each environment:
-不谈历史了，谈谈最近的实际案例。
+不谈历史了，谈谈最近磨砺了我的Groovy技术的实际案例。
 
 
 - …
