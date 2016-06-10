@@ -15,16 +15,25 @@ Welcome to this 121st edition of the Grails Diary, just 3 more and I have blogge
 
 
 Grails have a new release this week, [version 3.1.17](https://github.com/grails/grails-core/releases/tag/v3.1.7), with a couple of new features. First, there is a new REST API plugin profile, for creating plugins designed to serve REST APIs. The Application class of plugins is annotated with PluginSource, to avoid duplicate Application Loader classes generated. Finally, there is support for Hibernate 5.1, as the latest release of GORM is included.
-Grails这周发布了新的版本，[版本 3.1.17](https://github.com/grails/grails-core/releases/tag/v3.1.7)，该版本带来了一些新特性。首先，支持新的REST API插件profile，使用该profile可以创建提供REST API的插件。
+Grails这周发布了新的版本，[版本 3.1.17](https://github.com/grails/grails-core/releases/tag/v3.1.7)，该版本带来了一些新特性。首先，支持新的REST API插件profile，使用该profile可以创建提供REST API的插件。插件的`Application`类需要添加`PluginSource`注解避免生成多个Application加载类。最后，因为该版本支持最新版的GORM，所以该版本也支持Hibernate 5.1。
 
 The announcement that Gradle now also will supports build scripts written in Kotlyn have stirred a bit in the Groovy Ecosystem. You can find the announcements from [Gradle: Kotlin Meets Gradle](http://gradle.org/blog/kotlin-meets-gradle/) and from [Jetbrains: Gradle Meets Kotlin](http://blog.jetbrains.com/kotlin/2016/05/gradle-meets-kotlin) , as well as thoughts and responses from first [Dan Woods](http://danveloper.github.io/gradle-kotlin-groovy.html), then [Cédric Champeau](http://melix.github.io/blog/2016/05/gradle-kotlin.html) and also [Schalk Cronjé.](http://delivervalue.blogspot.co.uk/2016/05/about-gradle-kotlin-and-inner-fear.html) Links with titles are available in the blogs section.   
+
+Gradle将支持Kotlyn编写的脚本的消息在Groovy生态圈引起了一些反响。[《Gradle：Kotlin遇到Gradle》](http://gradle.org/blog/kotlin-meets-gradle/)和[Jetbrains: Gradle遇到Kotlin](http://blog.jetbrains.com/kotlin/2016/05/gradle-meets-kotlin)引用了该消息。 [Dan Woods](http://danveloper.github.io/gradle-kotlin-groovy.html)首先发表了自己的看法和反馈，接下来是[Cédric Champeau](http://melix.github.io/blog/2016/05/gradle-kotlin.html)和[Schalk Cronjé.](http://delivervalue.blogspot.co.uk/2016/05/about-gradle-kotlin-and-inner-fear.html)。这些文章的都可以在博客部分找到。   
 My personal opinion is that everyone should keep a decent tone in the discussion, as Gradle and all of the people at Gradle are doing a great job in building the best build tool in the JVM space. I don't see a polyglot buildscript language as a thread to the Groovy ecosystem, as I think the ecosystem consists of a very pleasant programming language, along with a long range of excellent frameworks for apps, testing and all kinds of tasks. If you attend my presentation at GR8Conf EU in a week and a half, I'll describe some of them, and how they are now used in the team I joined a year ago.
 
+我个人的观点是我们要严肃对待这些讨论，Gradle和所有Gradle的开发者现在正在构建JVM领域最好的编译工具，这是一项伟大的工作。Groovy生态圈有非常优秀的语言和各种框架，这些框架涵盖了应用开发、测试和其他各种任务，但是却没有一种多语言版本的编译脚本语言。在一周半之后我将在GR8Conf欧洲大会上发表演讲，那时我将会描述Groovy生态圈中一些框架，和它们在我一年前参加的团队中是如何使用的。
+
 Not to forget in all of the Kotlyn fuzz, [Gradle 2.14 RC1](https://discuss.gradle.org/t/gradle-2-14-rc-1-is-now-available-for-testing/17635) is out, with a lot of new improvements. Performance is again improved, the deamon has been upgraded to be more robust and is now suited even for ci servers, IDEA support for Play projects and Java 6 is now officially deprecated. Some of the core plugins have been [partially converted to JAVA](https://discuss.gradle.org/t/gradle-plugins-converted-from-groovy-to-java/17634), but it appears it also happened by adding CompileStatic to some of the Groovy classes.
+不要忘记Kotlyn，[Gradle 2.14 RC1](https://discuss.gradle.org/t/gradle-2-14-rc-1-is-now-available-for-testing/17635)已经发布了，该版本有很多新的提升。性能又再次提升了，后台程序更加强壮，甚至可以作为ci服务器，支持IntelliJ IDEA开发Play项目，正式放弃对Java 6的支持。一些核心插件已经[部分转换为java代码了](https://discuss.gradle.org/t/gradle-plugins-converted-from-groovy-to-java/17634),但是添加了`CompileStatic`到一些Groovy类中。   
 
 If you are working with ReactJS and Grails, the [Grails/React Starter project](https://github.com/ZacharyKlein/grails-react-starter) has been updated
+如果你从事ReactJS和Grails，[Grails/React Starter项目](https://github.com/ZacharyKlein/grails-react-starter)已经更新了。   
 
 In presentation news, Ivan Lopez have given a presentation at JavaCro on [From Java to Groovy: Adventure Time!](http://www.slideshare.net/ilopmar/javacro-2016-from-java-to-groovy-adventure-time) and Danny Hyun at JEEConf on [Rapid Java Web Application Development with Ratpack](http://danhyun.github.io/2016-jeeconf-rapid-ratpack-java/) ([pdf](https://danhyun.github.io/2016-jeeconf-rapid-ratpack-java/notes.pdf)) Manning have also shared a few slides on [Why You Should Get On Board with Spock](http://www.slideshare.net/ManningBooks/why-you-should-get-on-board-with-spock).
+
+在JavaCro会议上Ivan Lopez做了 [《从Java转向Groovy:探险时光》](http://www.slideshare.net/ilopmar/javacro-2016-from-java-to-groovy-adventure-time)的演讲，Danny Hyun在JEEConf会议上作了[《使用Ratpack快速开发Javaweb应用》](http://danhyun.github.io/2016-jeeconf-rapid-ratpack-java/) ([pdf](https://danhyun.github.io/2016-jeeconf-rapid-ratpack-java/notes.pdf))。Manning分享了《为什么你要了解Spock》的ppt。   
+
 
 #### Podcasts and Videos of Presentations
 
