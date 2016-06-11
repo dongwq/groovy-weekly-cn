@@ -5,7 +5,7 @@
 
 > original at (link)[http://grydeske.net/news/show/138]
 
-> ((原文链接))[http://grydeske.net/news/show/138]
+> (原文链接)[http://grydeske.net/news/show/138]
 
 
 
