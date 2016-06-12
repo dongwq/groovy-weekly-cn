@@ -13,10 +13,10 @@ Even with this being a one week standard edition of the Grails Diary, the Groovy
 
 SDKman can now be installed securely over HTTPS, with `curl -s "https://get.sdkman.io" | bash`. The full guide for installation is [here](http://sdkman.io/install.html)
 
-SDKman现在可以使用HTTPS协议安装了，使用`curl -s "https://get.sdkman.io" | bash`命令。完整的安装教程在[这里](http://sdkman.io/install.html)。      
+SDKman现在可以使用HTTPS协议安装了，输入`curl -s "https://get.sdkman.io" | bash`命令。完整的安装教程在[这里](http://sdkman.io/install.html)。      
 
 Dan Woods has decided to [donate all royalties from Learning Ratpack to the Gr8Ladies organization](http://danveloper.github.io/learning-ratpack-giving-back.html), to help sustain their work. This is one week where you should not #unfollowdanveloper (next week is again another story)
-
+Dan Woods决定捐出《学习Ratpack》一书的所有稿酬给Gr8Ladies组织，帮助该组织运转。所以这周你不能取消关注Dan Wood（下周就是下周的事情了。）   
 
 The Groovy Podcast, has beside the normal edition with Ken and Baruch, also published a special edition with guest Jenn Strater, discussing the GR8 Ladies and Jenn's scholorship in Copenhagen. Links to both editions are in the top of the videos section.  
  Thank you Ken for the continued advertisement (and glad the diary can be of use)
