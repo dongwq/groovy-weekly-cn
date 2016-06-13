@@ -20,18 +20,26 @@ Dan Woods决定捐出《学习Ratpack》一书的所有稿酬给Gr8Ladies组织�
 
 The Groovy Podcast, has beside the normal edition with Ken and Baruch, also published a special edition with guest Jenn Strater, discussing the GR8 Ladies and Jenn's scholorship in Copenhagen. Links to both editions are in the top of the videos section.  
  Thank you Ken for the continued advertisement (and glad the diary can be of use)
+Groovy Podcast除了Ken和Baruch主持的版本之外，还发布了一个和嘉宾Jenn Strater特殊版本，讨论了GR8 Ladies和Jenn在哥本哈根大学学习成就。     
 
 This latest edition of [Groovy Calamari](http://groovycalamari.com/issues/34) has special focus on the Fields plugin for Grails. Sergio del Amo is doing a great job with the weekly newsletter, that you really should subscribe to.
+最新一期的Groovy Calamari主要关注Grails的Fields插件， Sergio del Amo把Groovy Calamari周刊维护得很好，你真应该订阅。   
 
-Bud Byrd is the man behind the http-requests project, that could be a replacement for the somewhat stale HttpBuilder project for making HTTP requests in groovy. The documentation looks <a href="" target="_blank">very elaborate</a>. Guillaume pointed also to John Wagenleitners [groovy-wslite](https://github.com/jwagenleitner/groovy-wslite) project. If anyone need a topic for a blog post, then a fair comparison of these two HTTP request tools is up for grabs :)
+Bud Byrd is the man behind the http-requests project, that could be a replacement for the somewhat stale HttpBuilder project for making HTTP requests in groovy. The documentation looks very elaborate. Guillaume pointed also to John Wagenleitners [groovy-wslite](https://github.com/jwagenleitner/groovy-wslite) project. If anyone need a topic for a blog post, then a fair comparison of these two HTTP request tools is up for grabs :)
+Bud Byrd是http-requests项目的负责任，http-requests项目可以替换旧的HttpBuilder项目来在Groovy中发送接收HTTP请求。该项目的文档是精心制作的。Guillaume指出John Wagenleitners的[groovy-wslite](https://github.com/jwagenleitner/groovy-wslite)也是类似的项目。你可以使用这两款HTTP请求工具抓取博客的主题，然后做出合理公平的比较。  
+
 
 Grooscript could use your feedback, on the topic of [Integreate spring's reactor](https://github.com/chiquitinxx/grooscript-grails3-plugin/issues/8), thus integrating websockets in Grails 3.
 
 There is a new marketplace for Grails developers: [grailsdevelopers.com/](http://grailsdevelopers.com/). I have not used it, as I'm not in the consultancy business anymore, but I find it a little unfortunate that an Interview featured on the front page is with quite old and featuring someone who have done very little Grails work the last couple of years.
 
+
 Marcin Grzejszczak updated the JSONAssert library to version [0.4.2](https://github.com/marcingrzejszczak/jsonassert/releases/tag/jsonassert-0.4.2)
 
+Marcin Grzejszczak发布了JSONAssert类库的[0.4.2版本](https://github.com/marcingrzejszczak/jsonassert/releases/tag/jsonassert-0.4.2)。      
+
 The beer for this years GR8Conf is now underway, as the organizers wen't brewing this saturday. Tickets are still available at [gr8conf.eu](http://gr8conf.eu/)
+
 
 #### Podcasts and Videos of Presentations
 
