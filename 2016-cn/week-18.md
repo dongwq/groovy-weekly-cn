@@ -30,8 +30,11 @@ Bud Byrd是http-requests项目的负责任，http-requests项目可以替换旧�
 
 
 Grooscript could use your feedback, on the topic of [Integreate spring's reactor](https://github.com/chiquitinxx/grooscript-grails3-plugin/issues/8), thus integrating websockets in Grails 3.
+如果你对Grooscript在Grails 3中如何集成websockets有想法，可以在[整合进spring's reactor](https://github.com/chiquitinxx/grooscript-grails3-plugin/issues/8)主题中发布你的意见。   
 
 There is a new marketplace for Grails developers: [grailsdevelopers.com/](http://grailsdevelopers.com/). I have not used it, as I'm not in the consultancy business anymore, but I find it a little unfortunate that an Interview featured on the front page is with quite old and featuring someone who have done very little Grails work the last couple of years.
+
+Grails开发者有新的市场平台[grailsdevelopers.com/](http://grailsdevelopers.com/)了。我不在从事咨询工作了，所以还没有使用过这个平台。我发现首页的面试板块显示的是一个有点老在过去几年只做过一点Grails工作的人，我觉得有点悲哀。    
 
 
 Marcin Grzejszczak updated the JSONAssert library to version [0.4.2](https://github.com/marcingrzejszczak/jsonassert/releases/tag/jsonassert-0.4.2)
@@ -40,7 +43,7 @@ Marcin Grzejszczak发布了JSONAssert类库的[0.4.2版本](https://github.com/m
 
 The beer for this years GR8Conf is now underway, as the organizers wen't brewing this saturday. Tickets are still available at [gr8conf.eu](http://gr8conf.eu/)
 
-
+GR8Conf票还在[gr8conf网站](http://gr8conf.eu/)销售中。   
 #### Podcasts and Videos of Presentations
 
 *   [Groovy Podcast Ep. 27](https://www.youtube.com/watch?v=PGgrk13lyeU) (Ken Kousen and Baruch Sadogursky)
